@@ -3,6 +3,11 @@ package janpan.sawit.lab6;
 //import class to use.
 import java.util.ArrayList;
 
+/*
+ * This Program Competition  is abstract class that keep method for another class that want to use.
+ * author: Sawit Janpan id:653040463-7 sec:2 date: 2/2/2023
+ */
+
 //define abstract class.
 abstract class Competition {
     protected String name, region;
