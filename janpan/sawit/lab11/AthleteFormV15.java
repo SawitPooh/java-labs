@@ -28,6 +28,12 @@ public class AthleteFormV15 extends AthleteFormV14 {
         super(tilte);
 
     }
+    @Override // Overwrite method
+    public void addComponents() {
+        super.addComponents();
+        reading.setSelected(false);
+        shopping.setSelected(false);
+    }
 
     public static void createAndShowGUI() {
         AthleteFormV15 athleteV15 = new AthleteFormV15("Athlete Form V15");// declare object to use for instance method
